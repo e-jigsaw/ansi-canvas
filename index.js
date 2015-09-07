@@ -7,12 +7,6 @@ var ansi = require('ansi');
 var Canvas = require('canvas');
 
 /**
- * Module exports.
- */
-
-module.exports = term;
-
-/**
  * Terminal <canvas>.
  * The `width` and `height` properties are automated based off of the TTY's
  * current window size.
@@ -155,3 +149,6 @@ function render () {
 
   cursor.flush();
 }
+
+exports.term = term;
+exports.Canvas = Canvas;
