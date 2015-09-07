@@ -1,5 +1,5 @@
 {
-  "name": "ansi-canvas",
+  "name": "@jigsaw/ansi-canvas",
   "version": "0.0.2",
   "description": "Render a <canvas> node to your terminal",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/TooTallNate/ansi-canvas.git"
+    "url": "git://github.com/e-jigsaw/ansi-canvas.git"
   },
   "keywords": [
     "ansi",
@@ -16,10 +16,13 @@
     "terminal"
   ],
   "dependencies": {
-    "ansi": "~0.2.0",
-    "canvas": "~1.0.3"
+    "ansi": "^0.3.0",
+    "canvas": "^1.2.8"
   },
-  "author": "Nathan Rajlich <nathan@tootallnate.net> (http://n8.io/)",
+  "author": [
+    "Nathan Rajlich <nathan@tootallnate.net> (http://n8.io/)",
+    "jigsaw (http://jgs.me)"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/TooTallNate/ansi-canvas/issues"
